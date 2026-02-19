@@ -1,4 +1,4 @@
-import { Inter } from "next/font/google";
+import { Inter, Fira_Code } from "next/font/google";
 import "./globals.css";
 import Layout from "../components/Layout";
 
@@ -7,44 +7,37 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
+const firaCode = Fira_Code({
+  subsets: ["latin"],
+  variable: "--font-fira-code",
+});
+
 export const metadata = {
   title: {
-    default: "Emmanuel's Portfolio",
-    template: "%s | Emmanuel's Portfolio",
+    default: "Emoruwa Emmanuel | AI & Blockchain Engineer",
+    template: "%s | Emoruwa Emmanuel",
   },
-  description:
-    "Personal portfolio showcasing my projects, blogs, and skills in Python, React, Node.js, AWS, Docker, and more.",
-  metadataBase: new URL("https://yourdomain.com"), // <-- replace with your real domain
-  openGraph: {
-    title: "Emmanuel's Portfolio",
-    description:
-      "Explore my projects and blogs on full-stack development, cloud, and DevOps.",
-    url: "https://yourdomain.com",
-    siteName: "Emmanuel's Portfolio",
-    images: [
-      {
-        url: "/og-image.png", // put an image in /public (1200x630 recommended)
-        width: 1200,
-        height: 630,
-      },
-    ],
-    locale: "en_US",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Emmanuel's Portfolio",
-    description:
-      "Explore my projects and blogs on full-stack development, cloud, and DevOps.",
-    images: ["/og-image.png"],
-  },
+  description: "Senior Software Engineer specializing in AI Systems and Blockchain Infrastructure.",
+  // ... (keep your existing metadataBase and social tags)
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={`${inter.variable} font-sans bg-brand-light`}>
-        <Layout>{children}</Layout>
+    <html lang="en" className="scroll-smooth">
+      <body 
+        className={`${inter.variable} ${firaCode.variable} font-sans antialiased bg-brand-surface dark:bg-brand-dark text-slate-900 dark:text-slate-100`}
+      >
+        {/* The Glow Effect & Grid Pattern background */}
+        <div className="fixed inset-0 bg-glow" />
+        <div className="fixed inset-0 bg-grid pointer-events-none" />
+        
+        <div className="relative z-10">
+          <Layout>
+            <main className="min-h-screen">
+              {children}
+            </main>
+          </Layout>
+        </div>
       </body>
     </html>
   );
