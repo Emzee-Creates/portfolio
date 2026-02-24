@@ -31,7 +31,7 @@ export default async function Page() {
           </h1>
           
           <p className="mt-6 text-lg text-slate-600 dark:text-slate-400 max-w-lg leading-relaxed">
-            Software Engineer specializing in <span className="text-slate-900 dark:text-white font-semibold underline decoration-cyan-500">AI Systems</span> and <span className="text-slate-900 dark:text-white font-semibold underline decoration-blue-500">Blockchain Infrastructure</span>. Building the decentralized future.
+            Software Engineer specializing in <span className="text-slate-900 dark:text-white font-semibold underline decoration-cyan-500">Full-Stack AI Applications</span> and <span className="text-slate-900 dark:text-white font-semibold underline decoration-blue-500"></span>.
           </p>
 
           <div className="mt-10 flex gap-4">
@@ -57,9 +57,9 @@ export default async function Page() {
               <p className="text-green-400">$ whoami</p>
               <p className="text-slate-300">emoruwa_emmanuel</p>
               <p className="text-cyan-400">$ stack --list</p>
-              <p className="text-slate-300 text-xs">[React, Next.js, AI/ML, Solidity, Node.js]</p>
+              <p className="text-slate-300 text-xs">[React, Next.js, AI/ML, Python, Node.js]</p>
               <p className="text-purple-400">$ status</p>
-              <p className="text-slate-300 italic">"Hacking on decentralized protocols..."</p>
+              <p className="text-slate-300 italic">"Creating solutions..."</p>
               <p className="animate-pulse text-slate-500">_</p>
             </div>
           </div>
@@ -91,16 +91,16 @@ export default async function Page() {
           <div className="md:col-span-2">
             <h3 className="text-2xl font-bold mb-4">The Engineer Behind the Code</h3>
             <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
-              Participated in Google & Solana Hackathons where I honed the art of **rapid prototyping** and **high-scale architecture**. I don't just write code; I design systems that solve real-world accessibility issues.
+              Participated in Google & Solana Hackathons where I honed the art of rapid prototyping and high-scale architecture. I don't just write code; I design systems that solve real-world accessibility issues.
             </p>
             <div className="flex gap-6 mt-8">
               <div className="flex items-center gap-2">
                 <FaCube className="text-blue-500" />
-                <span className="text-sm font-semibold">Blockchain Developer</span>
+                <span className="text-sm font-semibold">Software Engineer</span>
               </div>
               <div className="flex items-center gap-2">
                 <FaMicrochip className="text-cyan-500" />
-                <span className="text-sm font-semibold">AI Researcher</span>
+                <span className="text-sm font-semibold">AI/ML Researcher</span>
               </div>
             </div>
           </div>
