@@ -31,7 +31,7 @@ export default async function Page() {
           </h1>
           
           <p className="mt-6 text-lg text-slate-600 dark:text-slate-400 max-w-lg leading-relaxed">
-            Software Engineer specializing in <span className="text-slate-900 dark:text-white font-semibold underline decoration-cyan-500">Full-Stack AI Applications</span> and <span className="text-slate-900 dark:text-white font-semibold underline decoration-blue-500"></span>.
+            Software Engineer specializing in <span className="text-slate-900 dark:text-white font-semibold underline decoration-cyan-500">Full-Stack AI Applications</span><span className="text-slate-900 dark:text-white font-semibold underline decoration-blue-500"></span>.
           </p>
 
           <div className="mt-10 flex gap-4">
